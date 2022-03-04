@@ -23,7 +23,7 @@ import "./styles.css";
         <div class="titlbod">
             <span class="titlbox"> </span> <span class="title"><b>${
               i + startIndex
-            }</b>${response[i + startIndex].name} </span>
+            }</b> ${response[i + startIndex].name} </span>
         </div>
         <div class="separter"><div/>
         <div class="responbody"> ${response[i + startIndex].body}</div>
